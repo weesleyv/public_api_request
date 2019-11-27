@@ -94,6 +94,10 @@ header h1 {
     overflow: hidden;
 }
 
+.card > * {
+    pointer-events: none;
+}
+
 .card-img {
     width: 95px;
     margin: 10px 15px auto 10px;
